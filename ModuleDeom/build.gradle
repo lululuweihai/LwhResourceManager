@@ -1,0 +1,10 @@
+group 'org.lwh.lrm'
+version rootProject.version
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.gitee.lululuweihai:lwh-resource-manager:Tag'
+}
